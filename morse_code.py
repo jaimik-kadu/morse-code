@@ -62,7 +62,7 @@ input_frame.pack(pady=10)
 # Input field for text
 entry_text_label = tk.Label(input_frame, text="Enter message or Morse code:", font=('Arial', 12))
 entry_text_label.grid(row=0, column=0, padx=5, pady=5)
-entry_text = tk.Text(input_frame, height=3, width=30, font=('Arial', 18))
+entry_text = tk.Text(input_frame, height=3, width=40, font=('Arial', 16))
 entry_text.grid(row=1, column=0, padx=5)
 
 # Buttons for encrypting and decrypting
@@ -78,7 +78,7 @@ output_frame = tk.Frame(root)
 output_frame.pack(pady=10)
 output_text_label = tk.Label(output_frame, text="Encrypted or Decrypted Message:", font=('Arial', 12))
 output_text_label.grid(row=0, column=0, padx=5, pady=5)
-output_text = tk.Text(output_frame, height=3, width=30, font=('Arial', 18), state="disabled")
+output_text = tk.Text(output_frame, height=3, width=40, font=('Arial', 16), state="disabled")
 output_text.grid(row=1, column=0, padx=5)
 
 root.mainloop()
