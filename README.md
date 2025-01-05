@@ -22,4 +22,4 @@ To run the application, you just need Python installed. `tkinter` comes bundled 
 3. Run the script using the following command:
 
 ```bash
-python morse_code_gui.py
+python morse_code.py
